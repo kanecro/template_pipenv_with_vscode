@@ -1,8 +1,8 @@
 # pipenv + Visual Studio Code 開発のプロジェクトテンプレート
 
-lintはflake8 + プラグイン を使います。
+lintはflake8 + 各種プラグイン を使います。
 
-pipenvでインストールするライブラリは `.venv` ディレクトリ配下に格納します。
+pipenvでインストールするライブラリは `.venv` ディレクトリ配下に格納します。
 
 ## 事前準備
 
