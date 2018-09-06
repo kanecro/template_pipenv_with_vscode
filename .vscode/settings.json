@@ -1,0 +1,19 @@
+{
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.formatting.provider": "yapf",
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  "python.autoComplete.addBrackets": true,
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/.venv/src/*"
+  ],
+  "python.linting.ignorePatterns": [
+    "${workspaceFolder}/.vscode/*.py",
+    "${workspaceFolder}/.venv/**/*.py"
+  ],
+}

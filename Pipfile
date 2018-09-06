@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+"flake8" = "*"
+"flake8-print" = "*"
+"flake8-import-order" = "*"
+"flake8-docstrings" = "*"
+"flake8-double-quotes" = "*"
+"pep8-naming" = "*"
+yapf = "*"
+
+[requires]
+python_version = "3.7"
